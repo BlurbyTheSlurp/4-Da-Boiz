@@ -125,88 +125,16 @@
     border-radius: 10px;
     display: block;
     margin: 0 auto;
-    max-width: 76%;
-    height: auto;
+    height: 454px;
+    width: 1276px;
   }
 
   .container-big h2 {
     padding-top: 28px;
     font-size: 34px;
     text-align: left;
-    padding-left: 172px;
-    padding-right: 172px;
-  }
-
-  .containers {
-    padding-top: 83px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 98px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1080px;
-    width: 100%;
-  }
-
-  .container1 {
-    display: block;
-    font-size: 17px;
-    text-align: left;
-  }
-
-  .container1 img {
-    border-radius: 10px;
-    display: block;
-  }
-
-  .container1 h3 {
-    padding-top: 18px;
-  }
-
-  .container2 {
-    display: block;
-    font-size: 17px;
-    text-align: left;
-  }
-
-  .container2 img {
-    border-radius: 10px;
-    display: block;
-  }
-
-  .container2 h3 {
-    padding-top: 18px;
-  }
-
-  .container3 {
-    display: block;
-    font-size: 17px;
-    text-align: left;
-  }
-
-  .container3 img {
-    border-radius: 10px;
-    display: block;
-  }
-
-  .container3 h3 {
-    padding-top: 18px;
-  }
-
-  .container4 {
-    display: block;
-    font-size: 17px;
-    text-align: left;
-  }
-
-  .container4 img {
-    border-radius: 10px;
-    display: block;
-  }
-
-  .container4 h3 {
-    padding-top: 18px;
+    padding-left: 90px;
+    padding-right: 90px;
   }
 
   .socials {
