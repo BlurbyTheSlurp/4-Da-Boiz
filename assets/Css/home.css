@@ -43,10 +43,10 @@
     max-width: 1080px;
     align-items: center;
   }
-  
-  .navbar a {
+
+  .navbar ul li a {
     float: left;
-    list-style: none;
+    font-weight: bold;
     font-size: 20px;
     color: #EDEEF3;
     text-align: center;
@@ -69,7 +69,7 @@
     font-family: inherit;
   }
   
- .navbar ul li a:hover, .dropdown:hover .dropbtn {
+ .nav-links li a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(254, 200, 7, 0.75);
     border-radius: 10px;
     color: #2A2C29;
