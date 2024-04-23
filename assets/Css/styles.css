@@ -130,9 +130,21 @@
     background-position: center;
   }
 
-  .container-big h2 {
+  .container-big h1 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
     padding-top: 28px;
-    font-size: 34px;
+    font-size: 52px;
+    text-align: left;
+    width: 1036px;
+  }
+
+  .container-big p {
+    padding-bottom: 18px;
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
     text-align: left;
     width: 1036px;
   }
