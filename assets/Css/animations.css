@@ -31,17 +31,23 @@
   }
 
   .video {
+    margin: auto;
+    padding-left: 30px;
     padding-top: 60px;
     flex-direction: column;
-    align-items: center;
     display: flex;
+    justify-content: space-around;
   }
 
   video {
     padding-bottom: 20px;
     padding-left: 20px;
-    height: 343px;
-    width: 648px;
+    height: 40%;
+    width: 40%;
+  }
+
+  .ani {
+    
   }
 
 h1{
