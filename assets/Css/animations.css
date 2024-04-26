@@ -31,12 +31,10 @@
   }
 
   .video {
+    max-width: 1300px;
     margin: auto;
     padding-left: 30px;
     padding-top: 60px;
-    flex-direction: column;
-    display: flex;
-    justify-content: space-around;
   }
 
   video {
@@ -47,17 +45,33 @@
   }
 
   .ani {
-    
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
   }
 
-h1{
+  .ani h3{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+
+ .ani p{
+   font-size: 23px;
+   padding-left: 20px;
+  }
+
+.hello h1{
   font-size: 52px;
   display: flex;
   justify-content: center;
   padding-top: 60px;
 }
 
-p{
+.hello p{
   font-size: 23px;
   display: flex;
   justify-content: center;
@@ -71,59 +85,3 @@ p{
   justify-content: center;
   text-align: center;
 }
-
-  @media only screen and (max-width: 600px) {
-    .logo {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .navbar ul {
-      position: relative;
-        flex-direction: column;
-    }
-    .navbar li {
-        text-align: center;
-        padding: 10px 0;
-    }
-    video {
-        width: 100%;
-        height: auto;
-    }
-    .video {
-      padding-right: 50px;
-        width: 100%;
-        margin: auto;
-    }
-    footer p {
-        padding-left: 10px;
-    }
-  }
-  
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .logo {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .navbar ul {
-      position: relative;
-        flex-direction: column;
-    }
-    .navbar li {
-      text-align: center;
-        padding: 10px 0;
-    }
-    video {
-        width: 80%;
-        height: auto;
-    }
-    .video {
-      padding-left: 100px;
-      width: 80%;
-      margin: auto;
-    }
-    footer p {
-        padding-left: 100px;
-    }
-  }
-  
-  
