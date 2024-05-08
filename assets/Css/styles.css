@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   body {
     background-color: #EDEEF3;
-    font-family: Arial, Helvetica, sans-serif;
   }
   
   nav {
@@ -14,18 +14,17 @@
   }
 
   .logo {
-    padding-left: 389px;
-    padding-right: 127px;
+    padding-left: 157px;
+    padding-right: 152px;
     display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
     align-items: center;
   }
   
   .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     padding: 25px 0px 25px 25px;
     overflow: hidden;
     background-color: #6666CC;
@@ -55,6 +54,7 @@
   }
   
   .dropdown {
+    padding-right: 274px;
     overflow: hidden;
   }
   
