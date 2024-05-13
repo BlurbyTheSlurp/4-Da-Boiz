@@ -34,7 +34,7 @@
   float: left;
   font-weight: bold;
   font-size: 18px;
-  color: #EDEEF3;
+  color: #e2e5ec;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -50,7 +50,7 @@
   font-size: 18px;  
   border: none;
   outline: none;
-  color: #EDEEF3;
+  color: #e2e5ec;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -66,7 +66,7 @@
   display: none;
   position: absolute;
   border-radius: 10px;
-  background-color: #EDEEF3;
+  background-color: #e2e5ec;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

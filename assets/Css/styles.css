@@ -4,76 +4,65 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  body.dark {background-color: #292c35;} /* #9b59b6 */
   
-  body {
-    background-color: #EDEEF3;
-    transition: background-color .3s;
+  body.dark h1, body.dark .support a {color: #fff;}
+  
+  .checkbox {
+    opacity: 0;
+    position: absolute;
   }
-
-  body[light-mode=dark] {
-    background-color: #141516;
-    color: #ced4e2;
-}
-body[light-mode="dark"] .light-mode-button span:nth-child(1){
-    background-color: #ced4e2;
-    color: #141516;
-}
-body[light-mode=dark] .light-mode-button span:nth-child(2) {
-    left: 17px;
-    background-color: #141516;
-}
-
-  .light-mode-button {
-    display: flex;
-    align-items: center;
-    background:0;
-    border: 0;
-    box-sizing: border-box;
+  
+  .checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
     cursor: pointer;
-    height: 16px;
-    width: 30px;
-    position: absolute;
-    border: 1px solid rgba(255,255,255,0);
-    top: 16px;
-    right: 16px;
-}
-.light-mode-button:focus {
-    outline:none;
-}
-.light-mode-button span:nth-child(1) {
-    position: absolute;
-    top:0;
-    left:0;
-    width: 30px;
-    height: 16px;
-    border-radius: 20px;
-    background-color: #d6d7db;
-    box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
-    transition: .3s;
-}
-
-.light-mode-button span:nth-child(2) {
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    width: 10px;
-    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fa-moon {color: #f1c40f;}
+  
+  .fa-sun {color: #f39c12;}
+  
+  .checkbox-label .ball {
     background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
     border-radius: 50%;
-    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
-    transition: .3s;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 900px;
-  position: absolute;
-  top: 0;
-}
+    transition: transform 0.2s linear;
+  }
+  
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(24px);
+  }
+  
+  .support {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  .support a {
+    color: #292c35;
+    font-size: 32px;
+    backface-visibility: hidden;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .support a:hover{
+    transform: scale(1.1);
+  }
   
   nav {
     margin: 0 auto;
@@ -85,6 +74,7 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    padding-bottom: 70px;
   }
 
   .container-big img {
@@ -94,6 +84,7 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
     height: 454px;
     width: 1036px;
     background-position: center;
+    margin-bottom: 25px;
   }
 
   .container-big h1 {
@@ -115,32 +106,6 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
     width: 1036px;
   }
 
-  .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1080px;
-    margin: 0 auto;
-    color: rgba(237, 238, 243, 0.75);
-    font-size: 18px;
-    gap: 20px;
-  }
-  
-  footer {
-    margin-top: 50px;
-    background-color: #999999;
-    height: 150px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  footer p {
-    font-weight: bold;
-    padding-left: 500px;
-  }
-
   #myBtn {
     display: none;
     position: fixed;
@@ -150,7 +115,7 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
     border: none;
     outline: none;
     background-color: rgba(254, 200, 7, 1);
-    color: white;
+    color: #e2e5ec;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;

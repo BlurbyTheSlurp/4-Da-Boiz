@@ -15,26 +15,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-function toggle_light_mode() {
-  var app = document.getElementsByTagName("BODY")[0];
-  if (localStorage.lightMode == "dark") {
-localStorage.lightMode = "light";
-app.setAttribute("light-mode", "light");
-  } else {
-localStorage.lightMode = "dark";
-app.setAttribute("light-mode", "dark");
-  }		
-}
-
-var app = document.getElementsByTagName("BODY")[0];
-    if (localStorage.lightMode == "dark") {
-        app.setAttribute("light-mode", "dark");
-    }
-
-    window.addEventListener("storage", function () {
-      if (localStorage.lightMode == "dark") {
-          app.setAttribute("light-mode", "dark");
-    } else {
-        app.setAttribute("light-mode", "light");
-    }
-  }, false);
+const checkbox = document.getElementById("checkbox")
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark")
+})
