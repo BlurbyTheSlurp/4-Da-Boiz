@@ -28,11 +28,6 @@
     --animate:200ms;
   }
   body {
-    margin:0;
-    padding:40px;
-    color:var(--gray-40);
-    font-family:"Arial";
-    background:var(--gray-70);
     -webkit-font-smoothing:antialiased;
     transition:color var(--animate) ease-in-out, background var(--animate) ease-in-out;
   }
@@ -49,14 +44,12 @@
   }
 
   .toggle-switch {
-    margin:0;
-    padding:0;
     width:48px;
     height:28px;
     border:none;
     outline:none;
     overflow:hidden;
-    position:relative;
+    position:absolute;
     border-radius:14px;
     display:inline-block;
     background:var(--gray-40);
@@ -142,7 +135,7 @@
     -moz-user-select:none;
     -webkit-user-select:none;
   }
-  
+
   .disableEasingTemporarily,
   .disableEasingTemporarily:after,
   .disableEasingTemporarily:before {
@@ -162,7 +155,6 @@
     -ms-animation:none!important;
     animation:none!important;
   }
-  
   
   nav {
     margin: 0 auto;
