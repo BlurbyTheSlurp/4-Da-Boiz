@@ -11,21 +11,16 @@
 
   .container-big {
     display: block;
-    padding-top: 60px;
+    padding-top: 180px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     padding-bottom: 70px;
-  }
-
-  .container-big img {
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
-    height: 454px;
-    width: 1036px;
-    background-position: center;
-    margin-bottom: 25px;
+    background-image: url(/assets/img/64-1276x454.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 754px;
   }
 
   .container-big h1 {
@@ -45,6 +40,23 @@
     font-size: 22px;
     text-align: left;
     width: 1036px;
+  }
+
+  .content{ 
+    background-color: #e2e5ec;
+    height: 329px;
+    width: 1138px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .container-big a {
+    padding: 10px 20px;
+    background-color: #EBD1A2;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
   }
 
   #myBtn {
