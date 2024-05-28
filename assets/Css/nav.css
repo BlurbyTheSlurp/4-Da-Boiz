@@ -1,12 +1,12 @@
 .logo {
-  padding-left: 157px;
-  padding-right: 152px;
   display: flex;
   align-items: center;
+  width: 80px;
+  height: 78px;
 }
 
 .navbar {
-  max-width: 1440px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,10 +23,12 @@
 }
 
 .navbar ul {
+  padding-left: 157px;
   display: flex;
   list-style-type: none;
   max-width: 1080px;
   align-items: center;
+  justify-content: center;
 }
 
 .navbar ul li a {

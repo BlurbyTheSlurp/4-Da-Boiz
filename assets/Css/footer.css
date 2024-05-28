@@ -1,7 +1,6 @@
 footer {
   background-color: #999999;  
   color: #0f0730;
-  height: 400px;
   padding-left: 80px;
   padding-right: 80px;
   margin: 0 auto;
@@ -12,27 +11,43 @@ footer section {
   flex-direction: row;
   justify-content: center;
   gap: 100px;
-  padding-top: 75px;
+  padding-top: 45px;
   padding-bottom: 50px;
 }
 
 footer article {
-  padding-top: 75px;
+  padding-top: 65px;
 }
 
 footer h3 {
-  font-size: 40px;
+  font-size:16px;
   padding-bottom: 10px;
 }
 
 footer h2 {
-  font-size: 16px;
+  font-size: 40px;
   padding-bottom: 12px;
 }
 
 footer article p {
   font-size: 14px;
   padding-bottom: 7px;
+}
+
+.links a{
+  text-decoration: none;
+  font-size: 14px;
+  padding-bottom: 7px;
+  color: #0f0730;
+}
+
+.links a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.links{
+  width: 110px;
 }
 
 footer a img{
@@ -47,9 +62,13 @@ footer p{
 
 .read a {
   font-size: 14px;
-  font-weight: bold;
   color: #0f0730;
   text-decoration: none;
+}
+
+.read a:hover{
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .copyright {

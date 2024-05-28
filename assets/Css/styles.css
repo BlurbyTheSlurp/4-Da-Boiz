@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  body{
+    background-color: #e2e5ec;
+  }
+
   nav {
     margin: 0 auto;
   }
@@ -17,9 +21,7 @@
     justify-content: center;
     padding-bottom: 70px;
     background-image: url(/assets/img/64-1276x454.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
     height: 754px;
   }
 
@@ -49,14 +51,25 @@
     text-align: left;
     margin: 0 auto;
     font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px #525252;
   }
 
   .container-big a {
     padding: 10px 20px;
-    background-color: #EBD1A2;
+    background-color: rgba(254, 200, 7, 1);
     color: black;
     text-decoration: none;
     border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .container-big a:hover{
+    background-color: rgba(254, 200, 7, 0.75);
+    box-shadow: 3px 5px 10px #525252;
   }
 
   #myBtn {
