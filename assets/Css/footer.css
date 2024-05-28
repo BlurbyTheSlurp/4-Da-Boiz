@@ -1,5 +1,5 @@
 footer {
-  background-color: #999999;  
+  background-color: #e2e5ec;  
   color: #0f0730;
   padding-left: 80px;
   padding-right: 80px;
@@ -75,7 +75,7 @@ footer p{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 14px;
   height: 23px;
   margin: 0 auto;
   text-align: center;
