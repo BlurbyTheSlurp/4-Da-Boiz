@@ -20,9 +20,14 @@
     display: flex;
     justify-content: center;
     padding-bottom: 70px;
-    background-image: url(/assets/img/64-1276x454.jpg);
-    background-repeat: no-repeat;
     height: 754px;
+  }
+
+  .container-big img {
+    position: relative;
+    height: 427px;
+    width: 1136px;
+    
   }
 
   .container-big h1 {
@@ -51,8 +56,8 @@
     text-align: left;
     margin: 0 auto;
     font-size: 18px;
-    border-radius: 15px;
-    box-shadow: 0px 10px 30px #525252;
+    position: absolute;
+    border-radius: 10px;
   }
 
   .container-big a {
