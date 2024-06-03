@@ -1,3 +1,7 @@
+require("@babel/core").transform("code", {
+  presets: ["@babel/preset-env"],
+});
+
 let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
