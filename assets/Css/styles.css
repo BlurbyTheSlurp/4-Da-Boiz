@@ -67,9 +67,10 @@
     text-decoration: none;
     border-radius: 10px;
     text-align: center;
-    width: 130px;
+    width: 140px;
     margin: 0 auto;
     display: block;
+    font-weight: bold;
   }
 
   .container-big a:hover{
