@@ -50,9 +50,28 @@ footer article p {
   width: 110px;
 }
 
-footer a img{
-  width: 30px;
-  aspect-ratio: 1/1;
+.fa-twitter {
+  border-radius: 50%;
+  padding: 7px;
+  background: #000;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-youtube {
+  border-radius: 50%;
+  padding: 7px;
+  background: #000;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-twitch {
+  border-radius: 50%;
+  padding: 7px;
+  background: #000;
+  color: white;
+  text-decoration: none;
 }
 
 footer p{
