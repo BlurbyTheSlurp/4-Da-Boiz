@@ -89,6 +89,7 @@
   }
 
   .welcomst h2{
+    padding: 110px 0 60px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,8 +98,7 @@
 
   .info{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 0 0 0;
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
   .info p{
@@ -108,19 +108,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 44px 0 44px;
+    padding: 0 20px 0 20px;
   }
  
 .img1{
   grid-column: 1/2;
   grid-row: 2/3;
-  height: 372px;
+  height: 272px;
 }
 
 .img2{
-  height: 372px;
+  height: 272px;
   grid-column: 3/4;
   grid-row: 2/3;
+}
+
+.vids{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 272px;
+}
+
+.left, .right{
+  height: 272px;
 }
 
   #btn-back-to-top {
