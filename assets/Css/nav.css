@@ -1,8 +1,13 @@
+nav {
+  margin: 0 auto;
+}
+
 .logo {
   display: flex;
   align-items: center;
   width: 220px;
   height: 218px;
+  filter: invert();
 }
 
 .navbar {

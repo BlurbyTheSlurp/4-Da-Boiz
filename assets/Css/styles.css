@@ -4,19 +4,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
-
-  html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-  }
-  
+ 
   body{
     background-color: #cdcbcb;
     margin: 0;
-  }
-
-  nav {
-    margin: 0 auto;
   }
 
   .container-big {
@@ -81,6 +72,14 @@
   .container-big a:hover{
     background-color: rgba(254, 200, 7, 0.75);
     box-shadow: 3px 5px 5px #52525220;
+  }
+
+  .arrow{
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .welcomst{
