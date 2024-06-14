@@ -128,12 +128,59 @@
 
 .vids{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 272px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 272px 272px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 88px 0 88px;
 }
 
-.left, .right{
+.center{
+  padding: 0 88px 0 88px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 272px 272px;
+  justify-content: center;
+  align-items: center;
+}
+
+.right{
   height: 272px;
+  padding: 15px 20px 15px 20px;
+}
+
+.left{
+  height: 272px;
+  padding: 15px 20px 15px 15px;
+}
+
+.top, .bottom {
+  left: 50%;
+  top: 50%;
+  transform: translate(25%, 50%);
+  display: flex;
+  height: 272px;
+}
+
+.top {
+  grid-row: 1/2;
+}
+
+.bottom {
+  grid-row: 2/3;
+}
+
+.top h3, .bottom h3 {
+  font-size: 32px;
+  width: 78px;
+}
+
+.top p, .bottom p {
+  font-size: 18px;
+}
+
+.top .text, .bottom .text2 {
+  width: 272px;
 }
 
   #btn-back-to-top {
