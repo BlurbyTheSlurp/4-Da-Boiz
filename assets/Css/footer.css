@@ -34,6 +34,10 @@ footer article p {
   padding-bottom: 7px;
 }
 
+.om-os{
+  max-width: 350px;
+}
+
 .links a{
   text-decoration: none;
   font-size: 14px;
