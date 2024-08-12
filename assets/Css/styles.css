@@ -83,11 +83,11 @@
   }
 
   .peek{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .welcomst{
-    height: 952px;
+    height: 682px;
     margin: 0 88px 0 88px;
   }
 
@@ -133,6 +133,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 88px 0 88px;
+  padding-bottom: 68px;
 }
 
 .center{
@@ -160,6 +161,7 @@
   transform: translate(25%, 50%);
   display: flex;
   height: 272px;
+  align-items: center;
 }
 
 .top {
@@ -172,7 +174,8 @@
 
 .top h3, .bottom h3 {
   font-size: 32px;
-  width: 78px;
+  width: auto;
+  padding-bottom: 24px;
 }
 
 .top p, .bottom p {

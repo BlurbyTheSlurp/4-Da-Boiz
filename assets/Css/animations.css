@@ -5,22 +5,22 @@
   }
   
   body {
-    background-color: #EDEEF3;
+    background-color: #cdcbcb;
     font-family: Arial, Helvetica, sans-serif;
   }
 
   .video {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     padding-left: 30px;
     padding-top: 60px;
   }
 
   video {
+    height: 250px;
     padding-bottom: 20px;
     padding-left: 20px;
-    height: 40%;
-    width: 40%;
+    width: 50%;
   }
 
   .ani {
@@ -30,9 +30,13 @@
     padding-bottom: 40px;
   }
 
+  .ani :nth-child(odd){
+    padding-right: 20px;
+  }
+
   .ani h3{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: 32px;
     padding-left: 20px;
     padding-bottom: 15px;
