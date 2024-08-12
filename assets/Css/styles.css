@@ -132,8 +132,7 @@
   grid-template-rows: 272px 272px;
   justify-content: center;
   align-items: center;
-  padding: 0 88px 0 88px;
-  padding-bottom: 68px;
+  padding: 0 88px 128px 88px;
 }
 
 .center{
@@ -185,6 +184,34 @@
 .top .text, .bottom .text2 {
   width: 272px;
 }
+
+.photos img{
+  width: 272px;
+}
+
+.photos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 88px 0 88px;
+  height: 620px;
+}
+
+.more-text{
+  max-width: 1188px;
+}
+
+.photos h3{
+  font-size: 28px;
+}
+
+.content-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 272px 168px;
+  gap: 18px;
+}
+
 
   #btn-back-to-top {
     position: fixed;
