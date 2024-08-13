@@ -25,3 +25,5 @@ function backToTop() {
 }
 
 //Highlight for current page
+
+AOS.init();
