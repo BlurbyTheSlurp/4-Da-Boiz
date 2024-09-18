@@ -129,16 +129,16 @@
 .vids{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 342px 342px;
+  grid-template-rows: 336px 336px;
   justify-content: center;
   align-items: center;
-  padding: 0 88px 0 88px;
+  padding: 0 88px 100px 88px;
 }
 
 .center{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 342px 342px;
+  grid-template-rows: 336px 336px;
   justify-content: center;
   align-items: center;
 }
@@ -191,6 +191,46 @@
   justify-content: center;
   padding: 0 88px 0 88px;
   height: 620px;
+}
+
+#kirke{
+  filter: grayscale();
+  filter: blur(10%);
+}
+
+#kirke:hover{
+  scale: 115%;
+  filter: none;
+}
+
+#light{
+  filter: grayscale();
+  filter: blur(10%);
+}
+
+#light:hover{
+  scale: 115%;
+  filter: none;
+}
+
+#sign{
+  filter: grayscale();
+  filter: blur(10%);
+}
+
+#sign:hover{
+  scale: 115%;
+  filter: none;
+}
+
+#flag{
+  filter: grayscale();
+  filter: blur(10%);
+}
+
+#flag:hover{
+  scale: 115%;
+  filter: none;
 }
 
 .more-text{

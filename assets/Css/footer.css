@@ -62,6 +62,10 @@ footer article p {
   text-decoration: none;
 }
 
+.fa-twitter:hover{
+  background-color: #26a7de;
+}
+
 .fa-youtube {
   border-radius: 50%;
   padding: 7px;
@@ -70,12 +74,20 @@ footer article p {
   text-decoration: none;
 }
 
+.fa-youtube:hover{
+  background-color: #b2071d;
+}
+
 .fa-twitch {
   border-radius: 50%;
   padding: 7px;
   background: #000;
   color: white;
   text-decoration: none;
+}
+
+.fa-twitch:hover{
+  background-color: #6441a5;
 }
 
 footer p{
