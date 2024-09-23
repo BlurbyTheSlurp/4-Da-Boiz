@@ -11,7 +11,21 @@
 
 
   .gallery{
-    
+    max-width: 1000px;
+    height: 1200px;
+    margin: 0 auto; 
+    overflow: auto;
+    padding: 10px;
+  }
+
+  .gallery-container{
+    max-width: 50%;
+    aspect-ratio: 1/1;
+  }
+
+  .gallery img{
+    width: 100%;
+    height: auto;
   }
   
   #btn-back-to-top {
