@@ -10,23 +10,26 @@
     height: 1400px;
   }
 
-  .gallery{
-    overflow: auto;
-  }
-
-  .gallery-container{
+  .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 15.8vw);
-    max-width: 1080px;
+    grid-template-rows: repeat(12, 200px);
     gap: 10px;
+    max-width: 1080px;
     margin: 0 auto;
-    aspect-ratio: 1/1;
   }
-
-  .gallery img{
+  
+  .gallery img {
     width: 100%;
     height: auto;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .gallery {
+    overflow: auto;
+    overflow-x: hidden;
   }
   
   #btn-back-to-top {
