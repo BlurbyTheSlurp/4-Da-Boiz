@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: #cacaca;
+    background-color: #dbdbdb;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -34,18 +34,34 @@
     width: 50%;
   }
 
+  .ani1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .describ1{
+    display: none;
+  }
+
+  .ani1:hover + .describ1{
+    display: block;
+    color: #cacaca;
+    background-color: #5d5d5d;
+  }
+
   .ani {
     margin: 0;
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
-  }
+  } 
 
   .ani :nth-child(odd){
     padding-right: 20px;
   }
 
-  .ani h3{
+  .ani, ani1 h3{
     display: flex;
     justify-content: left;
     font-size: 32px;
@@ -53,12 +69,12 @@
     padding-bottom: 15px;
   }
 
- .ani p{
+ .ani, ani1 p{
    font-size: 23px;
    padding-left: 20px;
   }
 
-  .ani h4{
+  .ani, ani1 h4{
     display: flex;
     justify-content: left;
     font-size: 18px;
