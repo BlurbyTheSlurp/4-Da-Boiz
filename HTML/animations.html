@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/Css/footer.css">
     <link rel="stylesheet" href="/assets/Css/nav.css">
     <link rel="stylesheet" href="/assets/Css/animations.css">
@@ -39,86 +39,58 @@
     </div> 
   </nav>
 </header>
-
-    <div class="hello">
-      <h1>Animations</h1>
-      <p>Have a look around at our stuff.</p>
-      <p class="yay">Enjoy!</p>
-    </div>
-
-    <div class="video">
-      <div class="ani1">
-        <video controls src="/assets/vid/First_Steps.mp4"></video>
-        <div class="describ1">
-          <h3>First Steps</h3>
-          <h4>By Coospe</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
-        </div>
-      </div>
-
-      <div class="ani">
-        <div class="describ">
-          <h3>Title</h3>
-          <h4>Artist</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
-        </div>
-        <video controls src="/assets/img/yes.mp4"></video>
-      </div>
-
-      <div class="ani">
-      <video controls src="/assets/img/yes.mp4"></video>
-      <div class="describ">
-        <h3>Title</h3>
-        <h4>Artist</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
-      </div>
-    </div>
-
-      <div class="ani">
-        <div class="describ">
-          <h3>Title</h3>
-          <h4>Artist</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
-        </div>
-        <video controls src="/assets/img/yes.mp4"></video>
-      </div>
-
-      <div class="ani">
-        <video controls src="/assets/img/yes.mp4"></video>
-        <div class="describ">
-          <h3>Title</h3>
-          <h4>Artist</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
-        </div>
-      </div>
-  
-        <div class="ani">
-          <div class="describ">
-            <h3>Title</h3>
-            <h4>Artist</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
+<section class="header">
+  <div class="search">
+    <form action="search.php" method="POST">
+      <input type="text" placeholder="Search" />
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+  </div>
+</section>
+      <main>
+          <div class="side-bar">
+            <div class="nav">
+              <a class="nav-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+              </a>
+              <a class="nav-link">
+                <i class="fa-solid fa-fire"></i>
+                <span>Trending</span>
+             </a>
+             <hr>
+             <a class="nav-link">
+              <i class="fa-solid fa-clock"></i>
+              <span>Watch Later</span>
+           </a>
+           <a class="nav-link">
+            <i class="fa-solid fa-clock-rotate-left"></i>            
+            <span>History</span>
+         </a>
           </div>
-          <video controls src="/assets/img/yes.mp4"></video>
-        </div>
-
-        <div class="ani">
-          <video controls src="/assets/img/yes.mp4"></video>
-          <div class="describ">
-            <h3>Title</h3>
-            <h4>Artist</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
           </div>
-        </div>
-    
-          <div class="ani">
-            <div class="describ">
-              <h3>Title</h3>
-              <h4>Artist</h4>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea cupiditate officiis et voluptas dolorum vel minus asperiores maxime natus earum modi adipisci eos, delectus atque veritatis, molestias odit expedita?</p>
-            </div>
-            <video controls src="/assets/img/yes.mp4"></video>
+          <div class="content">
+            <div class="videos">
+              <!-- a video starts -->
+              <a href="/assets/vid/First_Steps.mp4"><div class="video" data-video-id="1">
+                <div class="thumbnail">
+                  <img src="/assets/img/Group 59.png" alt="" />
+                </div>
+                <div class="details">
+                  <div class="author">
+                    <img src="/assets/img/Group 59.png" alt="" />
+                  </div>
+                  <div class="title">
+                    <h3>Title</h3></a>
+                    <a href="">Creator</a>
+                    <span class="time-views">Time and views</span>
+                  </div>
+                </div>
+              </div>
+              <!-- a video Ends -->
+              <!-- Add more videos here -->
           </div>
-    </div>
+      </main>
 
     <footer>
       <section>
