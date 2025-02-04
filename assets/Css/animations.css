@@ -116,6 +116,10 @@
     background: #e5e5e5;
  }
 
+ .side-bar a{
+  text-decoration: none;
+ }
+
  hr {
   height: 1px;
   background-color: #e5e5e5;
@@ -201,7 +205,7 @@ span {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
