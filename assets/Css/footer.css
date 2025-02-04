@@ -16,7 +16,7 @@ footer section {
 }
 
 footer article {
-  padding-top: 65px;
+  padding-top: auto;
 }
 
 footer h3 {
@@ -111,7 +111,6 @@ footer p{
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  height: 23px;
   margin: 0 auto;
   text-align: center;
 }

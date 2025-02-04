@@ -120,11 +120,11 @@
   text-decoration: none;
  }
 
- hr {
+ main hr {
   height: 1px;
   background-color: #e5e5e5;
   border: none;
-}
+  }
 
 .content {
   background-color: #f9f9f9;

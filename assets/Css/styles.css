@@ -15,10 +15,11 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    height: 754px;
+    height: max-content 754px;
   }
 
   .container-big img {
+    display: block;
     position: relative;
     height: 427px;
     width: 936px;
@@ -30,7 +31,6 @@
     display: block;
     margin: 0 auto;
     padding-bottom: 25px;
-    padding-top: 28px;
     font-size: 52px;
     text-align: left;
     width: 879px;
@@ -42,18 +42,19 @@
     margin: 0 auto;
     font-size: 22px;
     text-align: left;
-    width: 879px;
+    width: max-content 879px;
   }
 
   .content{ 
     background-color: #e2e5ec;
-    height: 329px;
+    height: auto;
     width: 936px;
     text-align: left;
     margin: 0 auto;
     font-size: 18px;
     position: absolute;
-    transform: translate(110px, 140px);
+    padding: 15px;
+    transform: translate(120px, 140px);
   }
 
   .container-big a {
@@ -74,20 +75,30 @@
     box-shadow: 3px 5px 5px #52525220;
   }
 
+  .scroll{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+  }
+
   .arrow, .peek{
     color: #000;
     font-size: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 20px;
   }
 
   .peek{
-    padding-bottom: 30px;
+    grid-row: 1/2;
+    grid-column: 1/2;
   }
 
   .welcomst{
-    height: 682px;
+    height: auto;
     margin: 0 88px 0 88px;
   }
 
@@ -128,18 +139,17 @@
 
 .vids{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 336px 336px;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 2fr 1fr;
   justify-content: center;
   align-items: center;
-  padding: 0 88px 100px 88px;
+  height: auto;
 }
 
 .center{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 336px 336px;
-  justify-content: center;
+  grid-template-columns: 4fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
 }
 
@@ -153,7 +163,7 @@
   top: 50%;
   transform: translate(25%, 50%);
   display: flex;
-  height: 272px;
+  height: auto;
   align-items: center;
 }
 
@@ -189,8 +199,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 88px 0 88px;
-  height: 620px;
+  margin: 0 auto;
+  height: auto;
+  top: -100px;
 }
 
 #kirke{
@@ -235,6 +246,8 @@
 
 .more-text{
   max-width: 1188px;
+  height: auto;
+  padding: 40px;
 }
 
 .photos h3{
@@ -244,7 +257,7 @@
 .content-img{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 272px 168px;
+  grid-template-rows: 2fr ;
   gap: 18px;
 }
 
