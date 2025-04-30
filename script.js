@@ -24,6 +24,22 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-//Highlight for current page
+//Active link
+let activeLink = document.querySelectorAll(".nav-link");
 
-AOS.init();
+activeLink.forEach((link) => {
+  link.addEventListener("click", function () {
+    activeLink.forEach((item) => {
+      item.classList.remove("active-link");
+    });
+    this.classList.add("active-link");
+  });
+}
+
+aos.init({
+  duration: 1200,
+  once: true,
+  mirror: false,
+  easing: "ease-in-out",
+  offset: 100,
+});

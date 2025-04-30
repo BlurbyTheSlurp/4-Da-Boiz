@@ -1,69 +1,97 @@
-nav {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  overflow: hidden;
+  background-color: #6d62ef;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+  height: 64px;
+}
+
+#active-link {
+  background-color: rgba(254, 200, 7, 0.75);
+  border-radius: 10px;
+  color: #2A2C29;
+}
+
+.navbar {
+  display: flex;
+  padding: 15px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
 .logo {
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-  width: 220px;
-  height: 218px;
+  padding: 12px;
+  width: 190px;
+  height: 100%;
   filter: invert();
 }
 
-.navbar {
-  height: 99px;
+.navbar ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 25px 0px 25px 25px;
-  overflow: hidden;
-  background-color: #6d62ef;
-  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+  max-width: 1080px;
+  gap: 15px;
 }
 
 .navbar li {
+  display: flex;
+  justify-content: center;
   font-weight: bold;
   list-style-type: none;
-}
-
-.navbar ul {
-  padding-left: 157px;
-  display: flex;
-  list-style-type: none;
-  max-width: 1080px;
-  align-items: center;
-  justify-content: center;
 }
 
 .navbar ul li a {
   display: flex;
-  float: left;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   color: #e2e5ec;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 8px;
   text-decoration: none;
-}
-
-.dropdown {
-  padding-right: 274px;
-  overflow: hidden;
+  font-family: inherit;
+  list-style-type: none;
 }
 
 .dropdown .dropbtn {
   font-weight: bold;
-  font-size: 18px;  
+  font-size: 16px;  
   border: none;
   outline: none;
   color: #e2e5ec;
-  padding: 14px 16px;
+  padding: 12px 16px;
   background-color: inherit;
   font-family: inherit;
+  cursor: pointer;
+  margin: 0 0 0 15px;
 }
 
-.nav-links li a:hover, .dropdown:hover .dropbtn {
+.dropdown .dropbtn:hover {
+  background-color: rgba(254, 200, 7, 0.75);
+  border-radius: 10px;
+  color: #2A2C29;
+}
+
+.dropdown:hover .fa-caret-down {
+  rotate: 180deg;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: rgba(254, 200, 7, 0.75);
+  border-radius: 10px;
+  color: #2A2C29;
+}
+
+.dropdown:hover .dropbtn {
   background-color: rgba(254, 200, 7, 0.75);
   border-radius: 10px;
   color: #2A2C29;
@@ -74,8 +102,8 @@ nav {
   position: absolute;
   border-radius: 10px;
   background-color: #e2e5ec;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 150px;
+  box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -91,16 +119,19 @@ nav {
 .dropdown-content .st:hover {
   background-color: rgba(153, 153, 153, 0.5);
   border-radius: 10px 10px 0 0;
+  justify-self: stretch;
 }
 
 .dropdown-content .nd:hover {
   background-color: rgba(153, 153, 153, 0.5);
-  border-radius: 0 0 0 0;
+  border-radius: 0;
+  justify-self: stretch;
 }
 
 .dropdown-content .rd:hover {
   background-color: rgba(153, 153, 153, 0.5);
   border-radius: 0 0 10px 10px;
+  justify-self: stretch;
 }
 
 .dropdown:hover .dropdown-content {
