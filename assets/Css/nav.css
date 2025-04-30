@@ -37,6 +37,11 @@ nav{
   filter: invert();
 }
 
+#active {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
 .navbar ul {
   display: flex;
   max-width: 1080px;
